@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SingletonsAndServices
+
+  Created by Luis Ligunas on 3/15/23.
+  
+*/
+
+"test_string" = "Hola, Mundo!";
+
+"cups_of_rice_eaten" = "Kumain na ako ng %f tasa ng kanin.";

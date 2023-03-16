@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SingletonsAndServices
+
+  Created by Luis Ligunas on 3/15/23.
+  
+*/
+
+"test_string" = "Hello, World!";
+
+"cups_of_rice_eaten" = "I have eaten %f cups of rice.";

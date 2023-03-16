@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0B1C57629C1623000391549 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A0B1C57529C1623000391549 /* Moya */; };
+		A0B1C57829C1630900391549 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C57729C1630900391549 /* MovieService.swift */; };
+		A0B1C57A29C1631200391549 /* LocalMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C57929C1631200391549 /* LocalMovieService.swift */; };
+		A0B1C57C29C1632C00391549 /* APIMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C57B29C1632C00391549 /* APIMovieService.swift */; };
+		A0B1C58029C163A700391549 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B1C57F29C163A700391549 /* APIService.swift */; };
+		A0B1C58529C1745300391549 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0B1C58729C1745300391549 /* Localizable.strings */; };
 		A0B2A43429C1554800E3C306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2A43329C1554800E3C306 /* AppDelegate.swift */; };
 		A0B2A43629C1554800E3C306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2A43529C1554800E3C306 /* SceneDelegate.swift */; };
 		A0B2A43829C1554800E3C306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2A43729C1554800E3C306 /* ViewController.swift */; };
 		A0B2A43B29C1554800E3C306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B2A43929C1554800E3C306 /* Main.storyboard */; };
 		A0B2A43D29C1554800E3C306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B2A43C29C1554800E3C306 /* Assets.xcassets */; };
 		A0B2A44029C1554800E3C306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B2A43E29C1554800E3C306 /* LaunchScreen.storyboard */; };
+		A0B2A44829C15AF800E3C306 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B2A44729C15AF800E3C306 /* SearchResponse.swift */; };
+		A0C47ED329C1C0F2002B9AAB /* MoyaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C47ED229C1C0F2002B9AAB /* MoyaAPIService.swift */; };
+		A0C47ED529C1C103002B9AAB /* NativeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C47ED429C1C103002B9AAB /* NativeAPIService.swift */; };
+		A0C47ED729C1C11B002B9AAB /* MovieAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C47ED629C1C11B002B9AAB /* MovieAPI.swift */; };
+		A0C47ED929C1C145002B9AAB /* DefaultTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C47ED829C1C145002B9AAB /* DefaultTargetType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A0B2A43029C1554800E3C306 /* SingletonsAndServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonsAndServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B1C57729C1630900391549 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		A0B1C57929C1631200391549 /* LocalMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMovieService.swift; sourceTree = "<group>"; };
+		A0B1C57B29C1632C00391549 /* APIMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIMovieService.swift; sourceTree = "<group>"; };
+		A0B1C57F29C163A700391549 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A0B1C58329C1743F00391549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A0B1C58429C1743F00391549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A0B1C58629C1745300391549 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0B1C58929C1747200391549 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0B2A43029C1554800E3C306 /* Services, Localization, and Dark Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Services, Localization, and Dark Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B2A43329C1554800E3C306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0B2A43529C1554800E3C306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0B2A43729C1554800E3C306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +43,11 @@
 		A0B2A43C29C1554800E3C306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0B2A43F29C1554800E3C306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B2A44129C1554800E3C306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0B2A44729C15AF800E3C306 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		A0C47ED229C1C0F2002B9AAB /* MoyaAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAPIService.swift; sourceTree = "<group>"; };
+		A0C47ED429C1C103002B9AAB /* NativeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAPIService.swift; sourceTree = "<group>"; };
+		A0C47ED629C1C11B002B9AAB /* MovieAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPI.swift; sourceTree = "<group>"; };
+		A0C47ED829C1C145002B9AAB /* DefaultTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTargetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B1C57629C1623000391549 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0B1C57D29C1633300391549 /* MovieService */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1C57729C1630900391549 /* MovieService.swift */,
+				A0B2A44729C15AF800E3C306 /* SearchResponse.swift */,
+				A0B1C57929C1631200391549 /* LocalMovieService.swift */,
+				A0C47EDA29C1C57C002B9AAB /* APIMovieService */,
+			);
+			path = MovieService;
+			sourceTree = "<group>";
+		};
+		A0B1C57E29C1639400391549 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1C57F29C163A700391549 /* APIService.swift */,
+				A0C47ED429C1C103002B9AAB /* NativeAPIService.swift */,
+				A0C47ED129C1C0E9002B9AAB /* MoyaAPIService */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
 		A0B2A42729C1554800E3C306 = {
 			isa = PBXGroup;
 			children = (
-				A0B2A43229C1554800E3C306 /* SingletonsAndServices */,
+				A0B2A43229C1554800E3C306 /* Services, Localization, and Dark Mode */,
 				A0B2A43129C1554800E3C306 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +94,52 @@
 		A0B2A43129C1554800E3C306 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0B2A43029C1554800E3C306 /* SingletonsAndServices.app */,
+				A0B2A43029C1554800E3C306 /* Services, Localization, and Dark Mode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A0B2A43229C1554800E3C306 /* SingletonsAndServices */ = {
+		A0B2A43229C1554800E3C306 /* Services, Localization, and Dark Mode */ = {
 			isa = PBXGroup;
 			children = (
+				A0B1C57E29C1639400391549 /* APIService */,
+				A0B1C57D29C1633300391549 /* MovieService */,
 				A0B2A43329C1554800E3C306 /* AppDelegate.swift */,
 				A0B2A43529C1554800E3C306 /* SceneDelegate.swift */,
+				A0B1C58729C1745300391549 /* Localizable.strings */,
 				A0B2A43729C1554800E3C306 /* ViewController.swift */,
 				A0B2A43929C1554800E3C306 /* Main.storyboard */,
 				A0B2A43C29C1554800E3C306 /* Assets.xcassets */,
 				A0B2A43E29C1554800E3C306 /* LaunchScreen.storyboard */,
 				A0B2A44129C1554800E3C306 /* Info.plist */,
 			);
-			path = SingletonsAndServices;
+			path = "Services, Localization, and Dark Mode";
+			sourceTree = "<group>";
+		};
+		A0C47ED129C1C0E9002B9AAB /* MoyaAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				A0C47ED229C1C0F2002B9AAB /* MoyaAPIService.swift */,
+				A0C47ED829C1C145002B9AAB /* DefaultTargetType.swift */,
+			);
+			path = MoyaAPIService;
+			sourceTree = "<group>";
+		};
+		A0C47EDA29C1C57C002B9AAB /* APIMovieService */ = {
+			isa = PBXGroup;
+			children = (
+				A0B1C57B29C1632C00391549 /* APIMovieService.swift */,
+				A0C47ED629C1C11B002B9AAB /* MovieAPI.swift */,
+			);
+			path = APIMovieService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A0B2A42F29C1554800E3C306 /* SingletonsAndServices */ = {
+		A0B2A42F29C1554800E3C306 /* Services, Localization, and Dark Mode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0B2A44429C1554800E3C306 /* Build configuration list for PBXNativeTarget "SingletonsAndServices" */;
+			buildConfigurationList = A0B2A44429C1554800E3C306 /* Build configuration list for PBXNativeTarget "Services, Localization, and Dark Mode" */;
 			buildPhases = (
 				A0B2A42C29C1554800E3C306 /* Sources */,
 				A0B2A42D29C1554800E3C306 /* Frameworks */,
@@ -82,9 +149,12 @@
 			);
 			dependencies = (
 			);
-			name = SingletonsAndServices;
+			name = "Services, Localization, and Dark Mode";
+			packageProductDependencies = (
+				A0B1C57529C1623000391549 /* Moya */,
+			);
 			productName = SingletonsAndServices;
-			productReference = A0B2A43029C1554800E3C306 /* SingletonsAndServices.app */;
+			productReference = A0B2A43029C1554800E3C306 /* Services, Localization, and Dark Mode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,20 +172,24 @@
 					};
 				};
 			};
-			buildConfigurationList = A0B2A42B29C1554800E3C306 /* Build configuration list for PBXProject "SingletonsAndServices" */;
+			buildConfigurationList = A0B2A42B29C1554800E3C306 /* Build configuration list for PBXProject "Services, Localization, and Dark Mode" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A0B2A42729C1554800E3C306;
+			packageReferences = (
+				A0B1C57429C1623000391549 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = A0B2A43129C1554800E3C306 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0B2A42F29C1554800E3C306 /* SingletonsAndServices */,
+				A0B2A42F29C1554800E3C306 /* Services, Localization, and Dark Mode */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B2A44029C1554800E3C306 /* LaunchScreen.storyboard in Resources */,
+				A0B1C58529C1745300391549 /* Localizable.strings in Resources */,
 				A0B2A43D29C1554800E3C306 /* Assets.xcassets in Resources */,
 				A0B2A43B29C1554800E3C306 /* Main.storyboard in Resources */,
 			);
@@ -138,19 +213,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B2A44829C15AF800E3C306 /* SearchResponse.swift in Sources */,
 				A0B2A43829C1554800E3C306 /* ViewController.swift in Sources */,
+				A0C47ED329C1C0F2002B9AAB /* MoyaAPIService.swift in Sources */,
 				A0B2A43429C1554800E3C306 /* AppDelegate.swift in Sources */,
 				A0B2A43629C1554800E3C306 /* SceneDelegate.swift in Sources */,
+				A0B1C57C29C1632C00391549 /* APIMovieService.swift in Sources */,
+				A0B1C57A29C1631200391549 /* LocalMovieService.swift in Sources */,
+				A0B1C58029C163A700391549 /* APIService.swift in Sources */,
+				A0C47ED929C1C145002B9AAB /* DefaultTargetType.swift in Sources */,
+				A0B1C57829C1630900391549 /* MovieService.swift in Sources */,
+				A0C47ED529C1C103002B9AAB /* NativeAPIService.swift in Sources */,
+				A0C47ED729C1C11B002B9AAB /* MovieAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A0B1C58729C1745300391549 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0B1C58629C1745300391549 /* en */,
+				A0B1C58929C1747200391549 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A0B2A43929C1554800E3C306 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A0B2A43A29C1554800E3C306 /* Base */,
+				A0B1C58329C1743F00391549 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +253,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A0B2A43F29C1554800E3C306 /* Base */,
+				A0B1C58429C1743F00391549 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -287,9 +384,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 496Y2U293A;
+				DEVELOPMENT_TEAM = P9VM94332G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SingletonsAndServices/Info.plist;
+				INFOPLIST_FILE = "Services, Localization, and Dark Mode/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luisligunas.SingletonsAndServices;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luisligunas.services-localization-darkmode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,9 +412,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 496Y2U293A;
+				DEVELOPMENT_TEAM = P9VM94332G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SingletonsAndServices/Info.plist;
+				INFOPLIST_FILE = "Services, Localization, and Dark Mode/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luisligunas.SingletonsAndServices;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luisligunas.services-localization-darkmode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0B2A42B29C1554800E3C306 /* Build configuration list for PBXProject "SingletonsAndServices" */ = {
+		A0B2A42B29C1554800E3C306 /* Build configuration list for PBXProject "Services, Localization, and Dark Mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0B2A44229C1554800E3C306 /* Debug */,
@@ -348,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0B2A44429C1554800E3C306 /* Build configuration list for PBXNativeTarget "SingletonsAndServices" */ = {
+		A0B2A44429C1554800E3C306 /* Build configuration list for PBXNativeTarget "Services, Localization, and Dark Mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0B2A44529C1554800E3C306 /* Debug */,
@@ -358,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0B1C57429C1623000391549 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0B1C57529C1623000391549 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0B1C57429C1623000391549 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0B2A42829C1554800E3C306 /* Project object */;
 }
